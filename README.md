@@ -47,7 +47,7 @@ To reduce the computational cost of modeling, feature selection helps us to extr
 ### Model Selection & Performance
 #### 2.0 Imbalanced datasets
 
-In this analysis, I use decision tree to build the model, where gini is the criteria that measure the quality of a split.
+In this analysis, I use informative variables to build decision tree model, where gini is the criteria that measure the quality of a split.
 The accuracy of the model is 0.99, which is extremely high. However, Accuracy is not meaningful when we measure the performance of imbalanced datasets. Other indicators such as Recall, F1-score and ROC sould be checked as well.</br>
 
 ![tree](https://user-images.githubusercontent.com/32606310/92608011-6b501900-f2e7-11ea-957f-419d1432869a.PNG)</br>
@@ -73,4 +73,4 @@ Based on the distribution features of positive cases, SMOTE reproduce some simil
 ![confusion matrix_SMOTE](https://user-images.githubusercontent.com/32606310/92607995-68edbf00-f2e7-11ea-8982-52dce3f060e1.PNG)</br>
 ![ROC_smote](https://user-images.githubusercontent.com/32606310/92607537-d6e5b680-f2e6-11ea-882d-fa177447f1cc.png)</br>
 ### Conclution
-After oversampling or undersampling, our model have higher accuracy and AUC, compared to the imbalanced one.
+After oversampling or undersampling, it is observed that the model have higher accuracy and AUC, compared to the imbalanced one.
