@@ -18,7 +18,7 @@ This is one of the most classic imbalance datasets on Kaggle. The datasets conta
   2.2 Undersampling
   2.3 SMOTE
 ```
-#### Data preprocessing
+### Data preprocessing
 
 ##### 1.1 Null Value&EDA
 ![distribution of Amount](https://user-images.githubusercontent.com/32606310/92606682-ca149300-f2e5-11ea-9af5-c617e810622f.png)
@@ -44,7 +44,7 @@ To reduce the computational cost of modeling, feature selection helps us to extr
 
 ![Score](https://user-images.githubusercontent.com/32606310/92606616-b9641d00-f2e5-11ea-98e3-0c52504efe1b.png)
 ```
-#### Model Selection & Performance
+### Model Selection & Performance
 ##### 2.0 Imbalanced datasets
 ```
 In this analysis, I use decision tree to build the model, where gini is the criteria that measure the quality of a split.
@@ -72,5 +72,5 @@ Based on the distribution features of positive cases, reproduce some similar pos
 ```
 ![confusion matrix_SMOTE](https://user-images.githubusercontent.com/32606310/92607995-68edbf00-f2e7-11ea-8982-52dce3f060e1.PNG)</br>
 ![ROC_smote](https://user-images.githubusercontent.com/32606310/92607537-d6e5b680-f2e6-11ea-882d-fa177447f1cc.png)</br>
-#### Conclution
+### Conclution
 After oversampling or undersampling, our model have higher accuracy and AUC, compared to the imbalanced one.
