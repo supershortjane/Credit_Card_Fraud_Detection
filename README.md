@@ -56,19 +56,19 @@ The accuracy of the model is 0.99, which is extremely high. However, Accuracy is
 
 #### 2.1 Oversampling
 
-Oversampling is to make the number of positive cases equal to that of negative cases, so replicate the positive cases.
+Oversampling is replicate the positive cases to make the number of positive cases equal to that of negative cases.
 
 ![confusion matrix_over](https://user-images.githubusercontent.com/32606310/92607987-6723fb80-f2e7-11ea-99ec-d6c7a089fcf0.PNG)</br>
 ![ROC_over](https://user-images.githubusercontent.com/32606310/92607535-d5b48980-f2e6-11ea-8043-65fc26f35dfd.png)</br>
 #### 2.2 Undersampling
 
-Randomly delete negative cases to make the number of positibe cases equal to that of negative cases.
+To make the number of positibe cases equal to that of negative cases, undersampling randomly deleted nagative cases.
 
 ![confusion matrix_under](https://user-images.githubusercontent.com/32606310/92608001-6a1eec00-f2e7-11ea-9532-3b23ca318f15.PNG)</br>
 ![ROC_under](https://user-images.githubusercontent.com/32606310/92607545-d816e380-f2e6-11ea-8d30-0eaa6c4caaa5.png)</br>
 #### 2.3 SMOTE
 
-Based on the distribution features of positive cases, reproduce some similar positve instances.
+Based on the distribution features of positive cases, SMOTE reproduce some similar positve instances.
 
 ![confusion matrix_SMOTE](https://user-images.githubusercontent.com/32606310/92607995-68edbf00-f2e7-11ea-8982-52dce3f060e1.PNG)</br>
 ![ROC_smote](https://user-images.githubusercontent.com/32606310/92607537-d6e5b680-f2e6-11ea-882d-fa177447f1cc.png)</br>
