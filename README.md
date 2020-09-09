@@ -41,9 +41,9 @@ Time and Amount are not scaled, so I apply stadardization to both columns.
 ```
 There are 30 predictor variabels in this data. 
 To reduce the computational cost of modeling, feature selection helps us to extract more informative variables. Since the input variables are numerical and output variables are categorical, ANOVA correlation coefficient is used to select the TOP 10 variables.After applying feature selection methods, it seems that v17,v14,v12,v10,v16,v3,v7,v11 are informative variables.
-
-![Score](https://user-images.githubusercontent.com/32606310/92606616-b9641d00-f2e5-11ea-98e3-0c52504efe1b.png)
 ```
+![Score](https://user-images.githubusercontent.com/32606310/92606616-b9641d00-f2e5-11ea-98e3-0c52504efe1b.png)
+
 ### Model Selection & Performance
 ##### 2.0 Imbalanced datasets
 ```
