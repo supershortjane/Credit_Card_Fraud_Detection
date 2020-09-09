@@ -48,9 +48,9 @@ To reduce the computational cost of modeling, feature selection helps us to extr
 ##### 2.0 Imbalanced datasets
 ```
 In this analysis, I use decision tree to build the model, where gini is the criteria that measure the quality of a split.
-![tree](https://user-images.githubusercontent.com/32606310/92608011-6b501900-f2e7-11ea-957f-419d1432869a.PNG)</br>
 The accuracy of the model is 0.99, which is extremely high. However, Accuracy is not meaningful when we measure the performance of imbalanced datasets. Other indicators such as Recall, F1-score and ROC sould be checked as well.</br>
 ```
+![tree](https://user-images.githubusercontent.com/32606310/92608011-6b501900-f2e7-11ea-957f-419d1432869a.PNG)</br>
 ![confusion matrix_imbalanced](https://user-images.githubusercontent.com/32606310/92607985-668b6500-f2e7-11ea-906c-d299321defbe.PNG)</br>
 ![ROC_imbalanced](https://user-images.githubusercontent.com/32606310/92607531-d5b48980-f2e6-11ea-8940-432e8f733c14.png)</br>
 
