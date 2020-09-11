@@ -4,7 +4,7 @@
 Machine learning models allow us to deal with classification problems. Take this dataset as an example, machine learning helps us to determine whether the transaction is legit or fraudulent. Since most of the transactions are not fraudulent, dealing with imbalanced data would be the main challenge during the process of this analysis. Therefore, our main goal in this analysis is to build a model that can correctly indentify the type of a transaction, even the dataset is unbalanecd.
 
 ## 2.Dataset
-This is one of the most classic imbalance datasets on Kaggle. The datasets contains two-days transations made by credit cards. The names of the features are not shown due to the confidential issues.
+This is one of the most classic imbalanced datasets on Kaggle. The datasets contain two-days transactions made by credit cards. The names of the features are not shown due to the confidential issues.
 
 ## 3.Overview of Analysis
 ```
@@ -28,13 +28,13 @@ This is one of the most classic imbalance datasets on Kaggle. The datasets conta
 My findings:
     1.There are 30 predictor variables and 1 target variable with 284807 rows.
     2.There is no null values in this data set.
-    3.Columns Time and Amount are not scaled.
+    3.Columns 'Time' and 'Amount' are not scaled.
     4.The data set is highly unbalanced. There are 492 frauds out of 284808 transactions, where frauds accounting for 0.17%.
     5.The distribution of Amount is extremely skewed to the right, centered at about 88. There are some values apparently present on the higher end.
 ```
 #### 1.2 Feature Scaling
 
-Time and Amount are not scaled, so I apply stadardization to both columns.
+Time and Amount are not scaled, so I apply standardization to both columns.
 
 #### 1.3 Feature Selection
 
@@ -48,7 +48,7 @@ To reduce the computational cost of modeling, feature selection helps us to extr
 #### 2.0 Imbalanced datasets
 
 In this analysis, I use informative variables to build decision tree model, where gini is the criteria that measure the quality of a split.
-The accuracy of the model is 0.99, which is extremely high. However, Accuracy is not meaningful when we measure the performance of imbalanced datasets. Other indicators such as Recall, F1-score and ROC sould be checked as well.</br>
+The accuracy of the model is 0.99, which is extremely high. However, Accuracy is not meaningful when we measure the performance of imbalanced datasets. Other indicators such as Recall, F1-score and ROC should be checked as well.</br>
 
 ![tree](https://user-images.githubusercontent.com/32606310/92608011-6b501900-f2e7-11ea-957f-419d1432869a.PNG)</br>
 ![confusion matrix_imbalanced](https://user-images.githubusercontent.com/32606310/92607985-668b6500-f2e7-11ea-906c-d299321defbe.PNG)</br>
